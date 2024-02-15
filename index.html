@@ -14,94 +14,265 @@
 	</head>
 
 	<body>
-		<div class="p-5 text-center bg-body-tertiary rounded-3 gradient-background">
+		<div class="p-5 text-center bg-body-tertiary gradient-background">
 			<img src="./images/logo.png" alt="logo" class="logo pb-3" />
-			<h1 class="text-body-emphasis">Sanctum Fieri</h1>
-			<p class="col-lg-6 mx-auto fs-4 fw-bolder text-muted">
+			<h1 class="text-body-emphasis fs-1">Sanctum Fieri</h1>
+			<p class="col-lg-6 mx-auto fs-3 fw-bolder text-muted">
 				Where Catholic singles come together to learn, practise, connect and
 				grow in holiness, in preparation for their vocation.
 			</p>
 		</div>
 
-		<nav
-			class="navbar navbar-expand-md bg-body-tertiary rounded bg-dark border-bottom border-body"
-			data-bs-theme="dark"
-			aria-label="Twelfth navbar example"
-		>
-			<div class="container-fluid">
-				<button
-					class="navbar-toggler"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarsExample10"
-					aria-controls="navbarsExample10"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
-
+		<div class="bd-example m-0 border-0">
+			<nav>
 				<div
-					class="collapse navbar-collapse justify-content-md-center fs-4 gap-3"
-					id="navbarsExample10"
+					class="nav nav-tabs mb-3 fs-3 justify-content-center"
+					id="nav-tab"
+					role="tablist"
 				>
-					<ul class="navbar-nav">
-						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="#">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">About</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Services</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Contact</a>
-						</li>
-					</ul>
+					<button
+						class="nav-link"
+						id="nav-home-tab"
+						data-bs-toggle="tab"
+						data-bs-target="#nav-home"
+						type="button"
+						role="tab"
+						aria-controls="nav-home"
+						aria-selected="false"
+						tabindex="-1"
+					>
+						Home
+					</button>
+					<button
+						class="nav-link"
+						id="nav-about-tab"
+						data-bs-toggle="tab"
+						data-bs-target="#nav-about"
+						type="button"
+						role="tab"
+						aria-controls="nav-about"
+						aria-selected="false"
+						tabindex="-1"
+					>
+						About
+					</button>
+					<button
+						class="nav-link"
+						id="nav-services-tab"
+						data-bs-toggle="tab"
+						data-bs-target="#nav-services"
+						type="button"
+						role="tab"
+						aria-controls="nav-profile"
+						aria-selected="false"
+						tabindex="-1"
+					>
+						Services
+					</button>
+					<button
+						class="nav-link active"
+						id="nav-contact-tab"
+						data-bs-toggle="tab"
+						data-bs-target="#nav-contact"
+						type="button"
+						role="tab"
+						aria-controls="nav-contact"
+						aria-selected="true"
+					>
+						Contact
+					</button>
+				</div>
+			</nav>
+			<div class="tab-content" id="nav-tabContent">
+				<div
+					class="tab-pane fade"
+					id="nav-home"
+					role="tabpanel"
+					aria-labelledby="nav-home-tab"
+				>
+					<div class="container">
+						TODO
+						<strong>
+							We help Catholic singles remove the barriers that are keeping them
+							from God's call to their true vocation.
+						</strong>
+						<p>
+							You can be single, dating or engaged to participate in these
+							courses. If you are here, trust that the Lord has called you to
+							deepen your faith and work on your own skills to prepare you for
+							your the vocation that He has in Mind for you.
+						</p>
+
+						<h2>Sanctity is Actually Possible, No Matter Your State in Life</h2>
+						<q
+							>Saint Rita of Cascia "With God, all things are possible." ​
+							Getting married and having twin boys, this woman suffered a great
+							deal of emotional pain: the murder of her husband, and the death
+							of her boys. Yet she ended up becoming a nun, devoting her entire
+							life to God's Will.
+						</q>
+						<q
+							>Saint Josemaria Escriva "Those who are called to the married
+							state will, with the Grace of God, find within their state
+							everything they need to be holy." ​ A man who answered the call to
+							the Priesthood, and was then told of his new mission, by God: to
+							start Opus Dei to assist all people to love God in their day to
+							day work.</q
+						>
+						<q
+							>Mother Angelica "I want you to have a new concept of holiness.
+							You've got to be holy where you are : washing dishes, at the
+							office, at school. Wherever you are, you can be holy there." ​ A
+							woman called to the life of a nun, with a call on top: to lead
+							others in the creation of EWTN so that all people could get to
+							know Our Lord remotely.</q
+						>
+					</div>
+				</div>
+				<div
+					class="tab-pane fade"
+					id="nav-about"
+					role="tabpanel"
+					aria-labelledby="nav-about-tab"
+				>
+					<div class="container">
+						<h2>Our Mission</h2>
+						<p>
+							To assist Catholic singles in removing the barriers that are
+							keeping them from discovering their true vocation. We equip
+							Catholic singles with skills that are needed in any vocation. We
+							assist in deepening one's faith through knowledge, support and
+							consistency.
+						</p>
+						<h2>Founder: Veronica Bucknell</h2>
+						<p>
+							My Catholic Faith is of utmost importance to me. After studying
+							Theology, I went on to complete my Masters of Counselling and
+							Psychotherapy. My passion is for the Sacrament of Marriage. I have
+							assisted married couples through my counselling. I have a great
+							desire to assist Catholic singles with skills that will benefit
+							them greatly when they enter their vocation. This is the way I
+							hope to intervene before there are issues in a marriage or even in
+							a religious vocation.
+						</p>
+					</div>
+				</div>
+				<div
+					class="tab-pane fade active show container"
+					id="nav-services"
+					role="tabpanel"
+					aria-labelledby="nav-services-tab"
+				>
+					<p>
+						Online Course: Saintly Singleness Thu, 04 Apr Google Meet Are you a
+						single Catholic on a journey of self-discovery, seeking clarity on
+						your vocation? Do you long to remove the barriers that may be
+						holding you back from embracing your calling-be it marriage, the
+						Priesthood or religious life? We understand and are here to guide
+						you on your journey.
+					</p>
+					<p>1:1 Counselling Sessions Time is TBD Zoom</p>
+				</div>
+				<div
+					class="tab-pane fade active show container"
+					id="nav-contact"
+					role="tabpanel"
+					aria-labelledby="nav-contact-tab"
+				>
+					<p>
+						Contact Me: Veronica Bucknell Phone: 0424 147 971 Email:
+						veronica@sanctumfieri.com Contact us to see if this is the community
+						for you.
+					</p>
+					<div class="container mt-5">
+						<div class="row justify-content-center">
+							<div class="col-md-8">
+								<h2>Get in Touch</h2>
+								<form action="/" method="post" class="row g-3 needs-validation">
+									<div class="col-md-6">
+										<label for="name" class="form-label">Name</label>
+										<input
+											type="text"
+											class="form-control"
+											id="name"
+											name="name"
+											required
+										/>
+										<div class="invalid-feedback">Please enter your name.</div>
+									</div>
+									<div class="col-md-6">
+										<label for="email" class="form-label">Email Address</label>
+										<input
+											type="email"
+											class="form-control"
+											id="email"
+											name="email"
+											required
+										/>
+										<div class="invalid-feedback">
+											Please enter a valid email address.
+										</div>
+									</div>
+									<div class="col-12">
+										<label for="message" class="form-label">Message</label>
+										<textarea
+											class="form-control"
+											id="message"
+											name="message"
+											rows="5"
+											required
+										></textarea>
+										<div class="invalid-feedback">Please leave a message.</div>
+									</div>
+									<div class="col-12">
+										<button type="submit" class="btn btn-primary">
+											Send Message
+										</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
-		</nav>
+		</div>
 
-		<section>
-			pictures
-			<p>
-				We help Catholic singles remove the barriers that are keeping them from
-				God's call to their true vocation.
-			</p>
-			<p>
-				You can be single, dating or engaged to participate in these courses. If
-				you are here, trust that the Lord has called you to deepen your faith
-				and work on your own skills to prepare you for your the vocation that He
-				has in Mind for you.
-			</p>
-		</section>
-		<section>
-			<h2>Sanctity is Actually Possible, No Matter Your State in Life</h2>
-		</section>
-		<section>
-			<q
-				>Saint Rita of Cascia "With God, all things are possible." ​ Getting
-				married and having twin boys, this woman suffered a great deal of
-				emotional pain: the murder of her husband, and the death of her boys.
-				Yet she ended up becoming a nun, devoting her entire life to God's Will.
-			</q>
-			<q
-				>Saint Josemaria Escriva "Those who are called to the married state
-				will, with the Grace of God, find within their state everything they
-				need to be holy." ​ A man who answered the call to the Priesthood, and
-				was then told of his new mission, by God: to start Opus Dei to assist
-				all people to love God in their day to day work.</q
-			>
-			<q
-				>Mother Angelica "I want you to have a new concept of holiness. You've
-				got to be holy where you are : washing dishes, at the office, at school.
-				Wherever you are, you can be holy there." ​ A woman called to the life
-				of a nun, with a call on top: to lead others in the creation of EWTN so
-				that all people could get to know Our Lord remotely.</q
-			>
-		</section>
+		<footer>
+			<div class="container">
+				<footer
+					class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+				>
+					<p class="col-md-4 mb-0 text-muted">© 2023 Sanctum Fieri</p>
 
+					<a
+						href="/"
+						class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
+					>
+						<svg class="bi me-2" width="40" height="32">
+							<use xlink:href="#bootstrap"></use>
+						</svg>
+					</a>
+
+					<ul class="nav col-md-4 justify-content-end">
+						<li class="nav-item">
+							<a href="#" class="nav-link px-2 text-muted">Home</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link px-2 text-muted">About</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link px-2 text-muted">Pricing</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link px-2 text-muted">FAQs</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link px-2 text-muted">Contact</a>
+						</li>
+					</ul>
+				</footer>
+			</div>
+		</footer>
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
