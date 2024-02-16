@@ -31,7 +31,7 @@
 					role="tablist"
 				>
 					<button
-						class="nav-link"
+						class="nav-link active"
 						id="nav-home-tab"
 						data-bs-toggle="tab"
 						data-bs-target="#nav-home"
@@ -70,7 +70,7 @@
 						Services
 					</button>
 					<button
-						class="nav-link active"
+						class="nav-link"
 						id="nav-contact-tab"
 						data-bs-toggle="tab"
 						data-bs-target="#nav-contact"
@@ -85,7 +85,7 @@
 			</nav>
 			<div class="tab-content" id="nav-tabContent">
 				<div
-					class="tab-pane fade"
+					class="tab-pane fade active show"
 					id="nav-home"
 					role="tabpanel"
 					aria-labelledby="nav-home-tab"
@@ -158,23 +158,25 @@
 					</div>
 				</div>
 				<div
-					class="tab-pane fade active show container"
+					class="tab-pane fade"
 					id="nav-services"
 					role="tabpanel"
 					aria-labelledby="nav-services-tab"
 				>
-					<p>
-						Online Course: Saintly Singleness Thu, 04 Apr Google Meet Are you a
-						single Catholic on a journey of self-discovery, seeking clarity on
-						your vocation? Do you long to remove the barriers that may be
-						holding you back from embracing your calling-be it marriage, the
-						Priesthood or religious life? We understand and are here to guide
-						you on your journey.
-					</p>
-					<p>1:1 Counselling Sessions Time is TBD Zoom</p>
+					<div class="container">
+						<p>
+							Online Course: Saintly Singleness Thu, 04 Apr Google Meet Are you
+							a single Catholic on a journey of self-discovery, seeking clarity
+							on your vocation? Do you long to remove the barriers that may be
+							holding you back from embracing your calling-be it marriage, the
+							Priesthood or religious life? We understand and are here to guide
+							you on your journey.
+						</p>
+						<p>1:1 Counselling Sessions Time is TBD Zoom</p>
+					</div>
 				</div>
 				<div
-					class="tab-pane fade active show container"
+					class="tab-pane fade"
 					id="nav-contact"
 					role="tabpanel"
 					aria-labelledby="nav-contact-tab"
@@ -237,46 +239,45 @@
 			</div>
 		</div>
 
-		<footer>
-			<div class="container">
-				<footer
-					class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
-				>
-					<p class="col-md-4 mb-0 text-muted">© 2023 Sanctum Fieri</p>
+		<div class="container">
+			<footer
+				class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+			>
+				<p class="col-md-4 mb-0 text-muted">© 2023 Sanctum Fieri</p>
 
-					<a
+				<!-- <a
 						href="/"
 						class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
 					>
 						<svg class="bi me-2" width="40" height="32">
 							<use xlink:href="#bootstrap"></use>
 						</svg>
-					</a>
+					</a> -->
 
-					<ul class="nav col-md-4 justify-content-end">
-						<li class="nav-item">
-							<a href="#" class="nav-link px-2 text-muted">Home</a>
-						</li>
-						<li class="nav-item">
-							<a href="#" class="nav-link px-2 text-muted">About</a>
-						</li>
-						<li class="nav-item">
-							<a href="#" class="nav-link px-2 text-muted">Pricing</a>
-						</li>
-						<li class="nav-item">
-							<a href="#" class="nav-link px-2 text-muted">FAQs</a>
-						</li>
-						<li class="nav-item">
-							<a href="#" class="nav-link px-2 text-muted">Contact</a>
-						</li>
-					</ul>
-				</footer>
-			</div>
-		</footer>
+				<ul class="nav col-md-4 justify-content-end">
+					<li class="nav-item">
+						<a href="#" class="nav-link px-2 text-muted">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link px-2 text-muted">About</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link px-2 text-muted">Pricing</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link px-2 text-muted">FAQs</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link px-2 text-muted">Contact</a>
+					</li>
+				</ul>
+			</footer>
+		</div>
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
 			crossorigin="anonymous"
 		></script>
+		<script type="module" src="./scripts/script.js"></script>
 	</body>
 </html>
