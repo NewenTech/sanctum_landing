@@ -29,3 +29,13 @@
 	border-radius: 50%;
 	height: 200px;
 }
+
+#carouselExampleIndicators {
+	width: 30%; /* Adjust the width as needed */
+	margin: 0 auto; /* Center the carousel horizontally */
+}
+
+.carousel-item img {
+	max-width: 100%; /* Ensure images resize with the carousel */
+	height: 500px; /* Maintain aspect ratio */
+}
