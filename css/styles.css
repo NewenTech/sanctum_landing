@@ -37,7 +37,7 @@
 
 .carousel-item img {
 	max-width: 100%; /* Ensure images resize with the carousel */
-	height: 500px; /* Maintain aspect ratio */
+	height: auto; /* Maintain aspect ratio */
 }
 
 .quote {
