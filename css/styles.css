@@ -54,7 +54,7 @@
 	background-image: url('../images/around-the-st-peter-s-square-1221379_edi.webp'); /* Replace 'path/to/your/image.jpg' with the path to your image */
 	background-size: cover; /* Cover the entire section */
 	background-position: center; /* Center the image */
-	height: 400px; /* Set the height of the section */
+	height: auto; /* Set the height of the section */
 }
 
 .section-content {
