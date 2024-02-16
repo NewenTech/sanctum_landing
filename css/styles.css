@@ -29,3 +29,36 @@
 	border-radius: 50%;
 	height: 200px;
 }
+
+#carouselExampleIndicators {
+	width: 30%; /* Adjust the width as needed */
+	margin: 0 auto; /* Center the carousel horizontally */
+}
+
+.carousel-item img {
+	max-width: 100%; /* Ensure images resize with the carousel */
+	height: 500px; /* Maintain aspect ratio */
+}
+
+.quote {
+	font-style: italic;
+	color: #6c757d; /* Adjust color as needed */
+}
+
+.quote-author {
+	font-weight: bold;
+	margin-top: 1rem;
+}
+
+.background-section {
+	background-image: url('../images/around-the-st-peter-s-square-1221379_edi.webp'); /* Replace 'path/to/your/image.jpg' with the path to your image */
+	background-size: cover; /* Cover the entire section */
+	background-position: center; /* Center the image */
+	height: 400px; /* Set the height of the section */
+}
+
+/* Style for content inside the section */
+.section-content {
+	color: #ffffff; /* Text color */
+	padding: 20px; /* Padding to create space around the content */
+}
